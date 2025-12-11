@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="../CSS/style.CSS"/>
+    </head>
+<body class="page page-home">
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="logo-mark">GF</div>
+      <div>
+        <div class="logo-title">GradeFlex</div>
+        <div class="logo-subtitle">Dashboard</div>
+      </div>
+    </div>
+    <nav class="topbar-nav">
+      <a href="home.html" class="nav-link nav-link-active">Home</a>
+      <a href="tests.html" class="nav-link" id="navTests">Tests</a>
+      <a href="reports.html" class="nav-link" id="navReports">Reports</a>
+      <button id="logoutLink" class="btn btn-ghost" type="button">Logout</button>
+    </nav>
+  </header>
+
+  <main class="page-content">
+    <section class="welcome-section">
+      <h1 id="welcomeTitle" class="welcome-title">Welcome to GradeFlex</h1>
+      <p id="welcomeSubtitle" class="welcome-subtitle">
+        Here you will be able to create tests, track students and analyze performance.
+      </p>
+    </section>
+
+    <section class="cards-grid">
+      <article class="card">
+        <h2 class="card-title">Manage Tests</h2>
+        <p class="card-text">
+          Create and manage online tests, configure questions and scoring rules.
+        </p>
+        <button class="btn btn-secondary" id="goToTests">Go to tests</button>
+      </article>
+
+      <article class="card">
+        <h2 class="card-title">Reports & Analytics</h2>
+        <p class="card-text">
+          Explore student performance, grade distributions and item analysis.
+        </p>
+        <button class="btn btn-secondary" id="goToReports">Go to reports</button>
+      </article>
+    </section>
+  </main>
+
+  <footer class="footer">
+    © 2025 GradeFlex · Online testing platform
+  </footer>
+
+  <script src="../JS/main.js"></script>
+</body>
+</html>
